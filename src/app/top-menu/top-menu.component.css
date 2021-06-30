@@ -1,0 +1,20 @@
+div.container{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    margin-left: 10px;
+    display: inline-block;
+}
+span{
+    margin: 40px 20px 0 0; 
+
+}
+a.button {
+    padding: 5px;
+    background-color: #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+    color: #000;
+}

@@ -1,0 +1,38 @@
+content{
+    margin: auto;
+    max-width:80%;
+}
+h2{
+    margin: 0;
+    text-align: center;
+    font-size: 250%;
+}
+div.text{
+    max-width:80%;
+    margin: auto;
+    margin-top: 10px;
+}
+button{
+    background: none;
+    border: none;
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+    font-size: 150%;
+    color: #777;
+}
+button:hover{
+    text-decoration: underline;
+}
+.img-container {
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+    box-shadow: 0 7px 20px rgba(0,0,0,0.3);
+    }
+.img-responsive {
+display: block;
+max-width: 100%;
+height: auto;
+}

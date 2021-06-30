@@ -5,4 +5,5 @@ export interface Post {
     image: string;
     top: string;
     content: string;
+    about: string;
   }

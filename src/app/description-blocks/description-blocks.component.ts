@@ -11,6 +11,8 @@ import { PostService } from '../post.service';
 })
 export class DescriptionBlocksComponent implements OnInit {
   @Input() post?: Post;
+  panelOpenState = false;
+  nums = [0, 1, 2, 3, 4, 5, 6, 7];
   constructor(
     private route: ActivatedRoute,
     private heroService: PostService,

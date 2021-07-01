@@ -2,3 +2,22 @@
     margin: auto;
     max-width: 80%;
 }
+
+.info-block{
+    display: flex;
+}
+.info-text{
+    max-width: 30%;
+}
+
+mat-accordion{
+    width:70%;
+    margin-right: 10px;
+}
+button{
+    display: block;
+    margin-right: 10px;
+    margin-left: auto;
+    font-size: 200%;
+    padding: 10px 20px;
+}

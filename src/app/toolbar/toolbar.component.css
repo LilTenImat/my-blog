@@ -1,0 +1,14 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+a{
+  color: white;
+  text-decoration: none;
+}
+button{
+  margin-left: 10px;
+}
+p{
+  margin-bottom: 0;
+}

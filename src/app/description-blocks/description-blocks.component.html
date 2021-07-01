@@ -2,5 +2,26 @@
     <h1>{{post.subtitle}}</h1>
     <p>{{post.about}}</p>
     <hr/>
-    
+    <div class="info-block">
+        <mat-accordion>
+            <mat-expansion-panel hideToggle *ngFor="let num of nums;">
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                This is the expansion panel #{{num}}
+                </mat-panel-title>
+                <mat-panel-description>
+                This is a summary of the content
+                </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>This is the primary content of the panel.</p>
+            </mat-expansion-panel>
+        </mat-accordion>
+        <div class="info-text">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste non minus ad id, magni, facere repudiandae laboriosam molestias nihil libero quas eos inventore mollitia illum dolorum est fugiat vitae distinctio recusandae. Ea, ratione iure. Officiis sunt assumenda sint, repellendus quia iste esse molestiae in magni laudantium debitis facere. Explicabo, id dolor. Modi facilis quam ratione delectus alias veritatis cupiditate voluptate ab! Dicta enim porro totam asperiores eaque voluptates neque laudantium dolor itaque nesciunt qui, eligendi eveniet vitae voluptate ab provident sequi quasi facilis voluptatibus similique iste explicabo! Sed possimus, vitae culpa numquam, mollitia dicta commodi nesciunt, quod eligendi odio sint?
+                
+            </p>
+            <button mat-raised-button color="accent">Take this!</button>
+        </div>
+    </div>
 </div>

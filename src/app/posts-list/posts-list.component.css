@@ -1,13 +1,22 @@
 div.post {
-    display: inline-block;
+    display: block;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin: auto;
     margin: 20px;
     padding: 0;
-    max-width: 30%;
+    max-width: 40%;
 }
-
+div.content {
+    margin: 0;
+    padding: 10px;
+}
+div.container {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
 a {
     color: black;
     text-decoration: none;
@@ -19,16 +28,13 @@ hr {
     box-shadow: 0;
 }
 
-div.content {
-    margin: 0;
-    padding: 10px;
-}
 
 h2 {
     margin-bottom: 10px;
 }
 
 p.top {
+    margin: 10px;
     text-align: right;
     color: #777;
     font-size: 70%;
@@ -38,12 +44,15 @@ h3 {
     margin: 5px;
     color: #369;
 }
+button{
+    
+}
 
 .img-container {
     border-radius: 10px 10px 0 0;
     overflow: hidden;
     position: relative;
-    height: 280px;
+    max-height: 280px;
 }
 
 .img-responsive {
